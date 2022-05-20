@@ -1,0 +1,131 @@
+.arka_plan_foto_1 {
+    background-image: url(../img/bg.jpg);
+    /* Arka planda sabit kalacak 1. resmin linki */
+    background-size: cover;
+    /* Ekrana sigdirma komutu */
+    background-attachment: fixed;
+    /* Resimi ekrana sabitleme komutu*/
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+    /* background-position: center; kodu ile resim ekranda tam olarak göründü */
+}
+
+.clarusway {
+    display: inline;
+    margin-top: 25vw;
+    margin-left: 42vw;
+    margin-bottom: 40vw;
+}
+
+.arka_plan_foto_2 {
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -0.7vw;
+}
+
+.Full_Stack {
+    background-color: white;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.Full_Stack_span2 {
+    font-size: large;
+}
+
+.clarusway_yourself {
+    display: inline;
+    width: 40vw;
+    margin-top: 40vw;
+    margin-left: 30vw;
+    margin-bottom: 40vw;
+
+}
+
+.AWS {
+    margin-left: 0vw;
+    font-size: x-large;
+    background-color: gray;
+
+}
+
+.AWS_p {
+    text-align: center;
+}
+
+
+.arka_plan_foto_3 {
+    background-image: url(../img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: -1.1vw;
+
+}
+
+.Way_to {
+    margin-top: 40vw;
+    margin-left: 34vw;
+    margin-bottom: 40vw;
+    width: 35vw;
+}
+
+
+.Data_Analiz {
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+}
+
+.arka_plan_foto_4 {
+    background-image: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -0.9vw;
+}
+
+.clarusway_team {
+    width: 20vw;
+    margin-top: 30vw;
+    margin-bottom: 30vw;
+    margin-left: 40vw;
+
+}
+
+.arka_plan_foto_4 .Why_Clarusway {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: gray;
+    margin-top: 5vw;
+}
+
+.arka_plan_foto_5 {
+    background-image: url(../img/bg.jpg);
+    /* Arka planda sabit kalacak 1. resmin linki */
+    background-size: cover;
+    /* Ekrana sigdirma komutu */
+    background-attachment: fixed;
+    /* Resimi ekrana sabitleme komutu*/
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+    /* background-position: center; kodu ile resim ekranda tam olarak göründü */
+    margin-top: -1rem;
+
+}
+
+.your_future {
+    width: 20vw;
+    margin-top: 35vw;
+    margin-bottom: 30vw;
+    margin-left: 40vw;
+    border-top-left-radius: 2rem;
+}
