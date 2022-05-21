@@ -1,4 +1,13 @@
+* {
+    margin: 0;
+
+}
+
 .arka_plan_foto_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-image: url(../img/bg.jpg);
     /* Arka planda sabit kalacak 1. resmin linki */
     background-size: cover;
@@ -6,17 +15,43 @@
     background-attachment: fixed;
     /* Resimi ekrana sabitleme komutu*/
     background-repeat: no-repeat;
-    width: 100vw;
+
+    height: 100vh;
     background-position: center;
     /* background-position: center; kodu ile resim ekranda tam olarak göründü */
 }
 
-.clarusway {
-    display: inline;
-    margin-top: 25vw;
-    margin-left: 42vw;
-    margin-bottom: 40vw;
+.arka_plan_foto_1 .clarusway_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    opacity: 0.7;
+    outline-width: 9px;
+    /* outline ile verilen en dista ki rengin(Mor) kalinligini ayarlamak icin. */
+
+    outline-style: inset;
+    /* outline color ile verilen rengin sol üst dis kisminin rengini ve sag alt dis kisminin rengini iki farkli renk yapma.
+outline-style:inset: ; ise tam ters köselerden 2 farkli renk vermek icin. */
+
+    outline-offset: 15px;
+    /* dista ki mor renk ile giri alan arasinda bosluk olusturmak icn. */
+
+    outline-color: rgb(166, 77, 166);
+
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+
 }
+
+
 
 .arka_plan_foto_2 {
     background-image: url(../img/bg2.jpg);
@@ -24,38 +59,34 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -0.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .Full_Stack {
-    background-color: white;
-    font-size: x-large;
+    padding: 2rem;
+    background-color: rgb(241, 241, 241);
+    font-size: 1.3rem;
     text-align: center;
 
+
 }
 
-.Full_Stack_span2 {
-    font-size: large;
-}
 
 .clarusway_yourself {
-    display: inline;
+
     width: 40vw;
-    margin-top: 40vw;
-    margin-left: 30vw;
-    margin-bottom: 40vw;
 
 }
 
 .AWS {
-    margin-left: 0vw;
-    font-size: x-large;
-    background-color: gray;
-
-}
-
-.AWS_p {
     text-align: center;
+    font-size: x-large;
+    background-color: rgb(40, 46, 52);
+    color: white;
+
 }
 
 
@@ -65,15 +96,41 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin-top: -1.1vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.Way_to {
-    margin-top: 40vw;
-    margin-left: 34vw;
-    margin-bottom: 40vw;
-    width: 35vw;
+.arka_plan_foto_3 .Reinvent {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 52rem;
+    height: 4rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    outline-style: inset;
+    /* Yazinin disinda ki cizgiyi olusturmak icin outlin-offset ile birlikte.*/
+
+    outline-color: rgb(166, 77, 166);
+    outline-offset: 5px;
+    /*! mor cizgi ile yazinin siyah kösesi arasinda ki boslugu olusturmak icin*/
+
+    outline-width: 7px;
+    border-top-left-radius: 1.5rem;
+    /* ic ve dis Kenarlari bükmek icin */
+
+    border-bottom-right-radius: 1.5rem;
+
+    letter-spacing: 0.5rem;
+
 }
 
 
@@ -88,23 +145,42 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-top: -0.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.clarusway_team {
-    width: 20vw;
-    margin-top: 30vw;
-    margin-bottom: 30vw;
-    margin-left: 40vw;
 
-}
-
-.arka_plan_foto_4 .Why_Clarusway {
-    text-align: center;
-    font-size: large;
+.Clarusway_Team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 4rem;
+    font-size: 3.5rem;
+    background-color: rgb(77, 77, 77);
     color: white;
-    background-color: gray;
-    margin-top: 5vw;
+    padding: 0.5rem 0.5rem;
+    outline-style: inset;
+    outline-color: rgb(166, 77, 166);
+    outline-width: 8px;
+    outline-offset: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+.Why_Clarusway {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(221, 221, 221);
+    background-color: rgb(40, 46, 52);
+    height: 15.2rem;
+    padding-top: 5rem;
 }
 
 .arka_plan_foto_5 {
@@ -115,17 +191,34 @@
     background-attachment: fixed;
     /* Resimi ekrana sabitleme komutu*/
     background-repeat: no-repeat;
-    width: 100vw;
+
     background-position: center;
     /* background-position: center; kodu ile resim ekranda tam olarak göründü */
-    margin-top: -1rem;
+    margin-top: -1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
-.your_future {
-    width: 20vw;
-    margin-top: 35vw;
-    margin-bottom: 30vw;
-    margin-left: 40vw;
-    border-top-left-radius: 2rem;
+
+
+.Choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    width: 57rem;
+    height: 8rem;
+    padding-top: 2rem;
+    outline-color: rgb(166, 77, 166);
+    outline-width: 8px;
+    outline-offset: 18px;
+    outline-style: inset;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
 }
